@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+       *{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+     
+        
+    }
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        margin:auto;
+        margin-left: 18%;
+       
+        
+    }
+
+    .img{
+        width:250px;
+        height: 250px;
+    
+    }
+
+    .sub{
+        margin: 3%;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+        
+    }
+    div>div{
+        text-align: center;
+        border-radius: 15px;
+    }
+    button{
+        padding: 10px 83px;
+        font-weight: bolder;
+        cursor: pointer;
+        border: transparent;
+        background-color: skyblue;
+        border-radius: 15px;
+        
+
+    }
+
+    div>div:hover{
+
+     text-decoration:underline;
+     color: #E5890A;
+     
+    }
+
+    select{
+        padding: 5px 60px;
+    }
+    .sidebar{
+       
+        border: 1px solid black;
+        height: 700px;
+    }
+    img{
+        border-radius: 15px;
+    }
+
+   
+</style>
+<body>
+
+    <div class="container">
+
+    </div>
+    
+</body>
+</html>
+
+<script>
+    var data = [
+            {
+                MRP: 690,
+                type: "Striped Round Neck T-shirt",
+                image_url:
+                    "https://assets.myntassets.com/f_webp,dpr_2.0,q_60,w_210,c_limit,fl_progressive/assets/images/1700871/2020/1/22/f932ae44-0fb8-4b92-b7bc-f1756253294b1579692118186-HRX-by-Hrithik-Roshan-Men-Teal-Blue-Printed-T-shirt-90515796-1.jpg",
+            },
+            {
+                MRP: 799,
+
+                type: "Striped Round Neck T-shirt",
+                image_url:
+                    "https://assets.myntassets.com/f_webp,dpr_2.0,q_60,w_210,c_limit,fl_progressive/assets/images/10424682/2019/10/30/a034179e-9db3-4a3a-bce0-abae4d1413531572419249956-Roadster-Men-Tshirts-2571572419248675-1.jpg",
+            },
+            {
+                MRP: 899,
+
+                type: "Men Printed Cotton T-shirt",
+                image_url:
+                    "https://assets.myntassets.com/f_webp,dpr_2.0,q_60,w_210,c_limit,fl_progressive/assets/images/12816440/2021/2/9/d81a95aa-a268-4c7b-9deb-b960ad1586c41612855488092-HERENOW-Men-Tshirts-5601612855486681-1.jpg",
+            },
+            {
+                MRP: 999,
+                type: "Men Printed Cotton T-shirt",
+                image_url:
+                    "https://assets.myntassets.com/f_webp,dpr_2.0,q_60,w_210,c_limit,fl_progressive/assets/images/1700871/2020/1/22/f932ae44-0fb8-4b92-b7bc-f1756253294b1579692118186-HRX-by-Hrithik-Roshan-Men-Teal-Blue-Printed-T-shirt-90515796-1.jpg",
+            },
+            {
+                MRP: 1099,
+
+                type: "Men Printed Cotton T-shirt",
+                image_url:
+                    "https://assets.myntassets.com/f_webp,dpr_2.0,q_60,w_210,c_limit,fl_progressive/assets/images/10424682/2019/10/30/a034179e-9db3-4a3a-bce0-abae4d1413531572419249956-Roadster-Men-Tshirts-2571572419248675-1.jpg",
+            },
+            {
+                MRP: 1299,
+                type: "Men Printed Cotton T-shirt",
+                image_url:
+                    "https://assets.myntassets.com/f_webp,dpr_2.0,q_60,w_210,c_limit,fl_progressive/assets/images/12816440/2021/2/9/d81a95aa-a268-4c7b-9deb-b960ad1586c41612855488092-HERENOW-Men-Tshirts-5601612855486681-1.jpg",
+            },
+            {
+                MRP: 1399,
+
+                type: "Men Printed Cotton T-shirt",
+                image_url:
+                    "https://assets.myntassets.com/f_webp,dpr_2.0,q_60,w_210,c_limit,fl_progressive/assets/images/12816440/2021/2/9/d81a95aa-a268-4c7b-9deb-b960ad1586c41612855488092-HERENOW-Men-Tshirts-5601612855486681-1.jpg",
+            },
+            {
+                MRP: 499,
+                type: "Men Printed Cotton T-shirt",
+                image_url:
+                    "https://assets.myntassets.com/f_webp,dpr_2.0,q_60,w_210,c_limit,fl_progressive/assets/images/10424682/2019/10/30/a034179e-9db3-4a3a-bce0-abae4d1413531572419249956-Roadster-Men-Tshirts-2571572419248675-1.jpg",
+            },
+            {
+                MRP: 299,
+
+                type: "Men Printed Cotton T-shirt",
+                image_url:
+                    "https://assets.myntassets.com/f_webp,dpr_2.0,q_60,w_210,c_limit,fl_progressive/assets/images/12816440/2021/2/9/d81a95aa-a268-4c7b-9deb-b960ad1586c41612855488092-HERENOW-Men-Tshirts-5601612855486681-1.jpg",
+            },
+            {
+                MRP: 199,
+                type: "Men Printed Cotton T-shirt",
+                image_url:
+                    "https://assets.myntassets.com/f_webp,dpr_2.0,q_60,w_210,c_limit,fl_progressive/assets/images/12816440/2021/2/9/d81a95aa-a268-4c7b-9deb-b960ad1586c41612855488092-HERENOW-Men-Tshirts-5601612855486681-1.jpg",
+            },
+        ];
+
+
+        displayitem(data)
+            function displayitem(data) {
+                document.querySelector(".container").innerHTML = ""
+                data.map(function (el) {
+                    var div = document.createElement('div');
+                    div.setAttribute('class', "sub")
+                    var div2 = document.createElement('div');
+                    var name = document.createElement('h5');
+                    var price = document.createElement('p');
+                    var img = document.createElement('img');
+                    var but = document.createElement('button')
+                    but.textContent = "Add to cart"
+
+                    img.setAttribute('src',el.image_url );
+                    img.setAttribute('class', "img");
+                    name.textContent = el.type;
+                    price.textContent = el.MRP;
+                    div2.append(name, price, but);
+                    div.append(img, div2);
+                    document.querySelector(".container").append(div);
+                    but.addEventListener('click', function () {
+                        console.log(el)
+                        addtocart(el)
+                        window.location.href = "cart.html"
+
+                    })
+
+                })
+            }
+</script>

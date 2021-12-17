@@ -1,0 +1,72 @@
+ *{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+     
+        
+    }
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+       
+        
+    }
+
+    .img{
+        width:250px;
+        height: 250px;
+    
+    }
+
+    .sub{
+        margin: 3%;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+        
+    }
+    div>div{
+        text-align: center;
+        border-radius: 15px;
+    }
+    button{
+        padding: 10px 83px;
+        font-weight: bolder;
+        cursor: pointer;
+        border: transparent;
+        background-color: rgb(254,189,105);
+        border-radius: 15px;
+        
+
+    }
+
+    div>div:hover{
+
+     text-decoration:underline;
+     color: #E5890A;
+     
+    }
+    #upper{
+        
+        background-color: #FFFCDC;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        position:sticky;
+        top: 0;
+        width: 100%;
+
+
+
+    }
+    select{
+        padding: 5px 60px;
+    }
+    .sidebar{
+       
+        border: 1px solid black;
+        height: 700px;
+    }
+    img{
+        border-radius: 15px;
+    }
+
+   
+  

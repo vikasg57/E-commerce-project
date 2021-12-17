@@ -1,0 +1,36 @@
+    *{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .head{
+        font-size: 30px;
+        font-weight: bolder;
+        color: rgb(254,189,105);
+        text-align: center;
+        text-decoration: underline;
+    }
+    .main{
+        height:auto;
+        
+        display:flex;
+        flex-direction: column;
+        margin: auto;
+        width: 35%;
+        align-items: center;
+        text-align: center;
+        margin-top: 5%;
+        box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+       
+
+    }
+    button{
+        background-color: rgb(254,189,105);
+        border: transparent;
+        margin-top: 20px;
+        padding: 10px 40px;
+        cursor: pointer;
+
+    }
+    input{
+        margin-top: 20px;
+        padding: 5px 50px;
+    }

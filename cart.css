@@ -1,0 +1,60 @@
+  *{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+     
+        
+    }
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .img{
+        width:250px;
+        height: 250px;
+    
+    }
+
+    .sub{
+        margin: 3%;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+        
+    }
+    div>div{
+        text-align: center;
+    }
+    button{
+        padding: 10px 88px;
+        font-weight: bolder;
+        cursor: pointer;
+        background-color: rgb(254,189,105);
+        border: transparent;
+        margin:0px 1px;
+        
+
+    }
+    .checkout:hover{
+        font-size: 20px;
+    }
+
+    #final{
+        
+        text-align: left;
+    }
+    #dbutton{
+        margin-bottom: 10px;
+    }
+    .upper{
+        width: 100%;
+        background-color: #FFFCDC;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+    .end{
+        margin-left: 3%;
+    }
+    input{
+        padding: 10px 30px;
+        text-align: center;
+    }
